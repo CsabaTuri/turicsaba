@@ -1,0 +1,10 @@
+
+
+# Next-on-Netlify Redirects
+/login  /_next/pages/login.html  200
+/_errors/404  /_next/pages/_errors/404.html  200
+/_error  /.netlify/functions/nextRouter?_path=/_error  200
+/index  /.netlify/functions/nextRouter?_path=/index  200
+/  /.netlify/functions/nextRouter?_path=/  200
+/:slug  /.netlify/functions/nextRouter?_path=/:slug  200
+https://dekkotestwp.netlify.com/* https://turicsaba.eu/:splat 301!
